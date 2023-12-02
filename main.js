@@ -12,11 +12,11 @@ $(document).ready(function() {
             $('#_calc_history_line_items').append(`
                 <div class="history-row" id="_calc_history_row_${$('.history-row').length}">
                     <div class="history-column" id="_index_column_${$('.history-row').length}">${$('.history-row').length}</div>
-                    <div class="history-column" id="_in_column_${$('.history-row').length}">${$('#_calc_in_input').val()}</div>
-                    <div class="history-column" id="_mm_column_${$('.history-row').length}">${$('#_output_to_mm').val()}</div>
-                    <div class="history-column" id="_mm_1_column_${$('.history-row').length}">${$('#_additional_output_input_1').val()}</div>
-                    <div class="history-column" id="_mm_2_column_${$('.history-row').length}">${$('#_additional_output_input_2').val()}</div>
-                    <div class="history-column" id="_mm_3_column_${$('.history-row').length}">${$('#_additional_output_input_3').val()}</div>
+                    <div class="history-column" id="_in_column_${$('.history-row').length}">${$('#_calc_in_input').val()}in</div>
+                    <div class="history-column" id="_mm_column_${$('.history-row').length}">${$('#_output_to_mm').val()}mm</div>
+                    <div class="history-column" id="_mm_1_column_${$('.history-row').length}">${$('#_additional_output_input_1').val()}mm</div>
+                    <div class="history-column" id="_mm_2_column_${$('.history-row').length}">${$('#_additional_output_input_2').val()}mm</div>
+                    <div class="history-column" id="_mm_3_column_${$('.history-row').length}">${$('#_additional_output_input_3').val()}mm</div>
                 </div>
             `)
             $('#_calc_in_input').val('');
